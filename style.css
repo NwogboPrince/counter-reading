@@ -1,0 +1,107 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+} 
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #d7fd867b;  
+    text-align: center;
+    display: flex;  
+    justify-content: center; /* Centers horizontally */  
+    align-items: center;     /* Centers vertically */  
+    height: 100vh;          /* Full viewport height */  
+    margin: 0;     
+} 
+
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   text-align: center;
+   color: rgb(62, 3, 255);
+   padding: 30px;
+}
+
+#value{
+font-size: 70px;
+font-weight: bolder;
+text-align: center;
+}
+
+
+.button-container{ 
+    padding: 20px ; /* Padding around text */   
+    font-size: 16px; /* Font size */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s; /* Smooth background color change on hover */    
+    color: rgb(255, 255, 255); /* White text */  
+    padding: 15px 32px ; /* Padding around text */  
+    text-align: center; /* Centered text */  
+    text-decoration: none; /* No underline */    
+    font-size: 16px; /* Font size */  
+    margin: 4px 2px; /* Margin */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s;
+}
+
+#btn-decrease{
+    background-color: #4e8d6c; /* Green background */   
+    color: rgb(255, 255, 255); /* White text */  
+    padding: 15px 32px ; /* Padding around text */  
+    text-align: center; /* Centered text */  
+    text-decoration: none; /* No underline */  
+    display: inline-block; /* Inline-block element */  
+    font-size: 16px; /* Font size */  
+    margin: 4px 2px; /* Margin */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s;
+}
+
+
+#btn-decrease:hover {  
+    background-color: #ff0101; /* Darker green */  
+} 
+
+#btn-reset{
+    background-color: #c21eaf; /* Green background */   
+    color: rgb(255, 255, 255); /* White text */  
+    padding: 15px 32px ; /* Padding around text */  
+    text-align: center; /* Centered text */  
+    text-decoration: none; /* No underline */  
+    display: inline-block; /* Inline-block element */  
+    font-size: 16px; /* Font size */  
+    margin: 4px 2px; /* Margin */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s;
+}
+
+#btn-reset:hover {  
+    background-color: #000000; /* Darker green */  
+} 
+
+#btn-increase {
+    background-color:#240cff; /* Green background */   
+    color: rgb(255, 255, 255); /* White text */  
+    padding: 15px 32px ; /* Padding around text */  
+    text-align: center; /* Centered text */  
+    text-decoration: none; /* No underline */  
+    display: inline-block; /* Inline-block element */  
+    font-size: 16px; /* Font size */  
+    margin: 4px 2px; /* Margin */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s;
+}
+
+
+#btn-increase:hover {  
+    background-color: #143f28; /* Darker green */  
+} 
+
+
+
